@@ -3,7 +3,7 @@ package be.vdab;
 import java.util.regex.Pattern;
 
 public class EMailAdres {
-	private final static Pattern REG_EXPR = Pattern.compile("^.+@.+\\.[a-z]+$"); //De regular expression is ^.+@.+\.[a-z]+$
+	private final static Pattern REG_EXPR = Pattern.compile("^.+@.+\\.[a-z]+$"); //The regular expression is ^.+@.+\.[a-z]+$
 	private final String adres;
 
 	public EMailAdres(String adres) {
